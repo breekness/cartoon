@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+	background-color: blanchedalmond;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+header h1{
+	color: black;
+	font-size: 50px;
+}
+
+header img{
+	width: 200px;
+	border-style: dashed;
+	border-color: black;
+	border-width: 10px;
+}
