@@ -1,6 +1,12 @@
 body{
 	margin: 0;
+	font-size: 20px;
 	font-family: Helvetica, Arial, sans-serif;
+	line-height: 25px;
+}
+
+h1,h2,h3 {
+	font-family: 'Tapestry', cursive;
 }
 
 header{
@@ -19,4 +25,41 @@ header img{
 	border-style: dashed;
 	border-color: black;
 	border-width: 10px;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h2{
+	font-size: 35px;
+	color: orangered;
+}
+
+a{
+	color: orangered;
+
+}
+a:hover{
+	color: black;
+	background-color: indianred;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer{
+	background-color: blanchedalmond;
+	text-align: center;
+	color: black;
+}
+
+p.caption{
+	color: dimgrey;
+	font-size: 25px;
+	font-style: italic;
+	margin 20px
 }
